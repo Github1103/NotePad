@@ -43,6 +43,8 @@
     ？= key关键字  
     然后对数据库进行搜索，将搜索到的数据存放到searchList中然后调用Recyclerview进行重新展示。  
     ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/MainActivity/%E6%9F%A5%E8%AF%A2%E6%95%B0%E6%8D%AE.jpg)
+    **实现展示**  
+    ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.jpg)  
 **5. 添加功能**
     **1. 点击悬浮摁扭然后进行跳转**   
     xml中添加  
