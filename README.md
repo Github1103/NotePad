@@ -37,6 +37,9 @@
     ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/NoteAdapter/%E5%A7%94%E6%89%98%E6%A8%A1%E5%BC%8F.jpg)  
     前端实现删除列表的委托动作  
     ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/MainActivity/%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE_%E5%A7%94%E6%89%98%E6%A8%A1%E5%BC%8F.jpg)  
+    **删除功能展示**
+    ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E9%95%BF%E6%91%81%E5%88%A0%E9%99%A4.jpg)
+    ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E5%88%A0%E9%99%A4%E5%90%8E.jpg)  
 **4. 搜索功能**  
     **1. 搜索功能使用对数据库模糊查询的方式**  
     **(select * from notes where note like ? and title like ?)**  
