@@ -63,7 +63,7 @@ class NoteAdapter(private val noteList: List<Note>) :
     override fun getItemCount() = noteList.size
 
     //委托模式
-     interface SelectItem {
+    interface SelectItem {
                 /**
                  * 在活动中定义的方法
                  * @param view view对象
