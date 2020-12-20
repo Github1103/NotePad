@@ -11,7 +11,7 @@
 ## 首页
 **1. 首页UI**  
 ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg)
-![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E4%BF%9D%E5%AD%98%E5%A4%9A%E6%9D%A1%E6%95%B0%E6%8D%AE.jpg)
+![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/show/%E4%BF%9D%E5%AD%98%E5%A4%9A%E6%9D%A1%E6%95%B0%E6%8D%AE.jpg)  
 **2. Note展示功能**
     **1. 瀑布流列表写法**  
     在xml中添加  
@@ -22,13 +22,13 @@
     ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/MainActivity/%E5%88%9D%E5%A7%8B%E5%8C%96%E7%80%91%E5%B8%83%E6%B5%81Recyclerview.jpg)  
     **2. 其中适配器的写法**  
     适配器集成Recyclerview.Adapter，分别实现以下方法  
-    **内部类ViewHolder：**展示数据的数据类  
+    **内部类ViewHolder**：展示数据的数据类  
     ![ViewHolder](https://github.com/Github1103/NotePad/blob/master/NotePad_image/NoteAdapter/ViewHolder.jpg)  
-    **onCreateViewHolder：**为viewHolder指定样式，对每一个列表项绑定点击事件或者长摁事件。（最为重要的！）  
+    **onCreateViewHolder**：为viewHolder指定样式，对每一个列表项绑定点击事件或者长摁事件。（最为重要的！）  
     ![长摁点击事件](https://github.com/Github1103/NotePad/blob/master/NotePad_image/NoteAdapter/%E9%80%82%E9%85%8D%E5%99%A8%E4%B8%AD%E7%9A%84%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%E5%92%8C%E9%95%BF%E6%91%81%E4%BA%8B%E4%BB%B6.jpg)  
-    **onBindViewHolder:**为viewHolder绑定list传入的数据  
-    ![onbindviewHolder](https://github.com/Github1103/NotePad/blob/master/NotePad_image/NoteAdapter/onBindViewHolder.jpg)    
-    **getItemCount：**计数，基本用不到。   
+    **onBindViewHolder**：为viewHolder绑定list传入的数据  
+    ![onbindviewHolder](https://github.com/Github1103/NotePad/blob/master/NotePad_image/NoteAdapter/onBindViewHolder.jpg)     
+    **getItemCount**：计数，基本用不到。   
 **3. Note删除功能**    
     **1. 这里使用了委托模式**   
     委托模式使用的目的是，当长摁删除事件产生的时候，前端的列表需要对列表进行刷新，但是由于长摁事件在后端，故需要委托模式，委托前端进行刷新动作。  
