@@ -5,7 +5,7 @@
 3. 项目实现的拓展功能是：**美化UI，更换笔记背景**
 ## 项目目录
 **1. 代码目录**  
-![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/Lib/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95.jpg)
+![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/Lib/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95.jpg)  
 **2. 资源目录**    
 ![](https://github.com/Github1103/NotePad/blob/master/NotePad_image/Lib/%E8%B5%84%E6%BA%90%E7%9B%AE%E5%BD%95.jpg)
 ## 首页
